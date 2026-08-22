@@ -92,7 +92,12 @@ const ProductSection = () => {
           <FiChevronLeft size={55} strokeWidth={1} />
         </button>
    
-      <button className="border-2 border-[#000000] px-6 py-1.5 rounded-sm mt-5 text-sm font-bold">SHOP ALL BACKPACKS</button>
+      {/* <button className="mt-6 border border-neutral-800 text-neutral-900 text-xs font-semibold tracking-wide px-5 py-3 uppercase hover:bg-neutral-900 hover:text-white transition">
+        SHOP ALL BACKPACKS
+      </button> */}
+       <button className="mt-4 border-2 border-[#333] bg-white px-4 py-2 text-[12px] font-bold tracking-[1.5px] text-[#222] transition hover:bg-[#222] hover:text-white">
+          SHOP ALL BACKPACKS
+        </button>
       </div>
     </section>
   );
