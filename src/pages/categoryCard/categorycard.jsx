@@ -5,12 +5,18 @@ import { categoryData } from "../../data/category";
 import "swiper/css";
 // import { PiBirdThin } from "react-icons/pi";
 import { GiBirdMask } from "react-icons/gi";
+// import sectionimg from "../../assets/images/bgimg.webp"
 
 const CategoryCard = () => {
   const [swiper, setSwiper] = useState(null);
 
   return (
-    <section className="w-full bg-[#fffafa] px-6 py-10 md:px-10 lg:px-14">
+    <section className="w-full bg- px-6 py-10 md:px-10 lg:px-14">
+    
+    {/* <section  className="w-full bg-cover bg-center bg-no-repeat px-6 py-10 md:px-10 lg:px-14" */}
+   {/* style={{ backgroundImage: `url(${sectionimg})` }}> */}
+
+ 
       {/* Small Icon */}
       <div className="mb-4">
         <span className="text-3xl">
